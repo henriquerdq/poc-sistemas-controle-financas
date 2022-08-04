@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T20:24:43.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PlgyUJlxU3lXXrpC5tPX" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-04T18:41:09.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LZVdwJxWFHNiP8yX-DPV" version="20.2.3" type="github" pages="3">
   <diagram id="wX6opSMDdoJ_hwt-J5mU" name="Diagrama de Contexto">
-    <mxGraphModel dx="4152" dy="2156" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="57BjOeWiamYFdiW3Halx" name="Diagrama de Conteiner">
-    <mxGraphModel dx="6490" dy="3810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3376" dy="2193" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5m_zXxtZRtFeLhPy6TU-5" value="HTTP Rest (Json)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="R5m_zXxtZRtFeLhPy6TU-4" vertex="1" connectable="0">
+        <mxCell id="R5m_zXxtZRtFeLhPy6TU-5" value="HTTP Rest (Json/Jwt)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="R5m_zXxtZRtFeLhPy6TU-4" vertex="1" connectable="0">
           <mxGeometry x="-0.5299" relative="1" as="geometry">
             <mxPoint x="-126" y="34" as="offset" />
           </mxGeometry>
@@ -85,7 +85,7 @@
         <mxCell id="1lAYmQ4UTDJYCMZh-H2R-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#000000;startArrow=classic;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3HSOm0p02bSoepeThfcl-1" target="R5m_zXxtZRtFeLhPy6TU-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1lAYmQ4UTDJYCMZh-H2R-2" value="HTTP Rest (Json)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="1lAYmQ4UTDJYCMZh-H2R-1" vertex="1" connectable="0">
+        <mxCell id="1lAYmQ4UTDJYCMZh-H2R-2" value="HTTP Rest (Json/Jwt)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="1lAYmQ4UTDJYCMZh-H2R-1" vertex="1" connectable="0">
           <mxGeometry x="0.3231" y="-2" relative="1" as="geometry">
             <mxPoint x="10" y="27" as="offset" />
           </mxGeometry>
@@ -95,10 +95,10 @@
             <mxGeometry x="-1856" y="-1379" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="rFYTgdjOz1-R5MCjL1rB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="R5m_zXxtZRtFeLhPy6TU-1" target="rlVY26uuhjY3tvzQaYXR-1">
+        <mxCell id="rFYTgdjOz1-R5MCjL1rB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;dashed=1;" parent="1" source="R5m_zXxtZRtFeLhPy6TU-1" target="rlVY26uuhjY3tvzQaYXR-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rFYTgdjOz1-R5MCjL1rB-2" value="Spring Data (JDBC)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rFYTgdjOz1-R5MCjL1rB-1">
+        <mxCell id="rFYTgdjOz1-R5MCjL1rB-2" value="Spring Data (JDBC)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rFYTgdjOz1-R5MCjL1rB-1" vertex="1" connectable="0">
           <mxGeometry x="-0.1442" y="-2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -118,6 +118,14 @@
             <mxGeometry x="-1668" y="-1028" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ir0uSO1AO_lobEG4TMU2" name="Diagrama de Componentes">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
