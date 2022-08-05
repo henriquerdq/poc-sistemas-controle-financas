@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T13:27:59.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tCnKgqNeHmC0Zwx2tuM3" version="20.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-05T13:45:23.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yH9D8dmpghf8sFvmzdND" version="20.2.3" type="github" pages="2">
   <diagram id="wX6opSMDdoJ_hwt-J5mU" name="Diagrama de Contexto">
     <mxGraphModel dx="1038" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
       <root>
@@ -115,14 +115,6 @@
             <mxGeometry x="-2240" y="-1410" width="981" height="559" as="geometry" />
           </mxCell>
         </object>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ir0uSO1AO_lobEG4TMU2" name="Diagrama de Componentes">
-    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
