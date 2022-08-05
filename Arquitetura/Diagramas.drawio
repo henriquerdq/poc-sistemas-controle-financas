@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T19:59:24.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Jps87UXPcbcRQIf789Jh" version="20.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-05T20:08:06.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ilQKt8NXV9HzHAtyZPdr" version="20.2.3" type="github" pages="3">
   <diagram id="wX6opSMDdoJ_hwt-J5mU" name="Diagrama de Contexto">
     <mxGraphModel dx="1038" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <object placeholders="1" c4Type="Base de Dados SCF" c4Container="Container " c4Technology="MySql" c4Description="Banco de dados do sistema de controle financeiro" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/b&gt;" id="E8rF5g7ZUO-N22Uvn0dx-2">
+        <object placeholders="1" c4Type="Base de Dados SCF" c4Container="Container " c4Technology="MySql" c4Description="Banco de dados relacional, para persistência de dados, autenticação e histórico, do sistema de controle financeiro." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/b&gt;" id="E8rF5g7ZUO-N22Uvn0dx-2">
           <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#99FFCC;fontSize=12;fontColor=#000000;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
             <mxGeometry x="-2245" y="-1045" width="240" height="120" as="geometry" />
           </mxCell>
@@ -50,7 +50,7 @@
         <mxCell id="z-TAx3BuyD03O64tne1X-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Qm4hdAvmPEwNyx3hf4sE-1" target="E8rF5g7ZUO-N22Uvn0dx-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z-TAx3BuyD03O64tne1X-9" value="SpringData(Jdbc)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z-TAx3BuyD03O64tne1X-6">
+        <mxCell id="z-TAx3BuyD03O64tne1X-9" value="Ler e escreve(Jdbc)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z-TAx3BuyD03O64tne1X-6">
           <mxGeometry x="0.2324" y="-2" relative="1" as="geometry">
             <mxPoint x="2" y="-24" as="offset" />
           </mxGeometry>
@@ -73,7 +73,7 @@
             <mxGeometry x="-1858.5" y="-1638" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="z-TAx3BuyD03O64tne1X-11" value="SpringBoot(Rest)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3HSOm0p02bSoepeThfcl-1" target="Qm4hdAvmPEwNyx3hf4sE-1">
+        <mxCell id="z-TAx3BuyD03O64tne1X-11" value="Usa(Json/Http)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3HSOm0p02bSoepeThfcl-1" target="Qm4hdAvmPEwNyx3hf4sE-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Type="APP - SCF" c4Container="Container " c4Technology="Angular" c4Description="Front-End da aplicação SCF" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="3HSOm0p02bSoepeThfcl-1">
@@ -86,13 +86,13 @@
             <mxGeometry x="-2281" y="-1410" width="1045" height="559" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Cache de Dados SCF" c4Container="Container " c4Technology="Redis" c4Description="Cache dos dados do sistema de controle financeiro" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/b&gt;" id="z-TAx3BuyD03O64tne1X-1">
+        <object placeholders="1" c4Type="Cache de Dados SCF" c4Container="Container " c4Technology="Redis" c4Description="Banco de cache dos dados, para otimizar o tempo de resposta do sistema de controle financeiro" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/b&gt;" id="z-TAx3BuyD03O64tne1X-1">
           <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#fff2cc;fontSize=12;align=center;strokeColor=#d6b656;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
             <mxGeometry x="-1515" y="-1045" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="z-TAx3BuyD03O64tne1X-10" value="SpringData(Jdbc)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1581.0033333333333" y="-1025" as="geometry" />
+        <mxCell id="z-TAx3BuyD03O64tne1X-10" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ler e escreve(Jdbc)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1578.0033333333333" y="-1033" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
