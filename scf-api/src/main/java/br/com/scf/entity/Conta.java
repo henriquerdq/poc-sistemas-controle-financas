@@ -12,6 +12,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import org.hibernate.envers.Audited;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -23,6 +25,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 @Table(name = "tb_conta")
+@Audited
 public class Conta implements Serializable {
 	
 	private static final long serialVersionUID = -3948266812159720095L;
