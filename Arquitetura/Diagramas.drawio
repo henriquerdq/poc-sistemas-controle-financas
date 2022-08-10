@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T19:44:21.075Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WwZRr8Z3LiwricyTE1WY" version="20.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-10T19:48:32.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="BvyeeZyif6x1kgV-vXmM" version="20.2.3" type="github" pages="3">
   <diagram id="wX6opSMDdoJ_hwt-J5mU" name="Diagrama de Contexto">
     <mxGraphModel dx="1038" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
       <root>
@@ -191,7 +191,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MMLng4nq09zwFmOs93CW-11" value="Diagrama de Componentes" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=20;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
-          <mxGeometry x="59" y="49" width="720" height="480" as="geometry" />
+          <mxGeometry x="54" y="49" width="725" height="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
