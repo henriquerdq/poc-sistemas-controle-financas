@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T17:06:29.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Y8bGV4p5Nvg5eFPccBv1" version="20.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-15T18:08:40.782Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="NZqckzY61rILaG2T0Db-" version="20.2.3" type="github" pages="4">
   <diagram id="wX6opSMDdoJ_hwt-J5mU" name="Diagrama de Contexto">
     <mxGraphModel dx="1038" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
       <root>
@@ -263,10 +263,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ir0uSO1AO_lobEG4TMU2" name="Diagrama de Classe">
-    <mxGraphModel dx="1038" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1078" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-12" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="XEk8_AGrA5xTRSckqsGK-5" target="XEk8_AGrA5xTRSckqsGK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=open;startSize=14;endSize=14;dashed=1;" edge="1" parent="1" source="XEk8_AGrA5xTRSckqsGK-5" target="XEk8_AGrA5xTRSckqsGK-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="XEk8_AGrA5xTRSckqsGK-5" target="XEk8_AGrA5xTRSckqsGK-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-25" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=open;startSize=19;endSize=14;" edge="1" parent="1" source="XEk8_AGrA5xTRSckqsGK-5" target="XEk8_AGrA5xTRSckqsGK-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-5" value="ContaController" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="358" y="202" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="XEk8_AGrA5xTRSckqsGK-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-11" value="ContaService" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="199" y="366" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-15" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=open;startSize=14;endSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEk8_AGrA5xTRSckqsGK-13" target="XEk8_AGrA5xTRSckqsGK-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-13" value="" style="ellipse;fillColor=#ffffff;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="413" y="57" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="XEk8_AGrA5xTRSckqsGK-16" target="XEk8_AGrA5xTRSckqsGK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-16" value="ContaRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="518" y="363" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-19" value="JpaRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="521" y="497" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-21" value="ContaModelAssembler" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=19;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=16;noLabel=0;fixDash=0;expand=1;autosize=1;resizeHeight=0;resizeWidth=0;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="66" y="202" width="181" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XEk8_AGrA5xTRSckqsGK-24" value="ContaMapper" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="601" y="202" width="140" height="54" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
