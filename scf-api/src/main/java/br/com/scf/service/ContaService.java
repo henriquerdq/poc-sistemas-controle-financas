@@ -1,6 +1,7 @@
 package br.com.scf.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -19,6 +20,7 @@ public class ContaService {
 		return contaRepository.findById(id).orElseThrow(() -> new FinancasNegocioException("Conta não encontrada"));
 	}
 
+	@Cacheable(value = "contas")
 	public Page<Conta> findAll(Pageable pageable) {
 		return contaRepository.findAll(pageable);
 	}
