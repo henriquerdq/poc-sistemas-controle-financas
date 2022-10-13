@@ -12,6 +12,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import org.hibernate.envers.Audited;
+import org.hibernate.envers.NotAudited;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,6 +24,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @Data
+@Audited
 @Entity
 @Table(name = "tb_conta")
 public class Conta implements Serializable {
@@ -34,10 +38,12 @@ public class Conta implements Serializable {
 	@Column(name = "nome", nullable = false, length = 50)
 	private String nome;
 	
+	@NotAudited
 	@OneToMany(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id_receita")
 	private List<ReceitaConta> receitas;
 
+	@NotAudited
 	@OneToMany(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id_conta")
 	private List<DespesaConta> despesas;

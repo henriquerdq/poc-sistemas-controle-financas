@@ -8,9 +8,12 @@ import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+import org.hibernate.envers.Audited;
+
 import lombok.Data;
 
 @Data
+@Audited
 @Entity
 @Table(name = "tb_receita_conta")
 public class ReceitaConta implements Serializable {
