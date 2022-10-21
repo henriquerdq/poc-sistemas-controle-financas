@@ -22,5 +22,5 @@ public class ContaRequest implements Serializable {
 	@NotBlank(message = "{conta.nome.not-blank}")
 	@Size(max = 50, message = "{conta.nome.size}")
 	private String nome;
-
+	
 }
