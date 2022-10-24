@@ -17,7 +17,9 @@ pipeline {
         }
         stage('Test') {
             steps {
-               sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=poc-sistemas-controle-financas'
+               dir('scf-api') {
+                 sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=poc-sistemas-controle-financas'
+               }
             }
         }
         stage('Deploy') {
