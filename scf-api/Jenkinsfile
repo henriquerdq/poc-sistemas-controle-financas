@@ -5,15 +5,17 @@ pipeline {
     }
     
     stages {
+        stage('SCM') {
+          checkout scm
+        }
         stage('Build') {
             steps {
-                checkout scm
-                sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=poc-sistemas-controle-financas'
+                echo 'Build..'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=poc-sistemas-controle-financas'
             }
         }
         stage('Deploy') {
