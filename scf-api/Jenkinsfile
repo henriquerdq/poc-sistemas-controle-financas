@@ -2,14 +2,10 @@ pipeline {
     agent any
     tools {
         maven '3.8.6'
+        sonar 'Sonar'
     }
     
     stages {
-        stage('SCM') {
-          steps {
-            checkout scm
-          }
-        }
         stage('Test') {
             steps {
                 dir('scf-api') {
