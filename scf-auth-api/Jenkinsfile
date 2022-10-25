@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                dir('scf-api') {
+                dir('scf-auth-api') {
                   withSonarQubeEnv('SonarQube') {
                     sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=poc-sistemas-controle-financas'
                   }
