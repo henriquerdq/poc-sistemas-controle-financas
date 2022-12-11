@@ -10,11 +10,6 @@ pipeline {
             checkout scm
           }
         }
-        stage('Build') {
-            steps {
-                echo 'Build..'
-            }
-        }
         stage('Test') {
             steps {
                 dir('scf-api') {
@@ -24,11 +19,14 @@ pipeline {
                 }
             }
         }
-        stage('Deploy') {
+        stage('Build') {
             steps {
-                sh 'node --version'
-                sh 'svn --version'
+                dir('scf-api') {
+                	sh 'mvn clean install -U'
+                }
             }
+        }
+        stage('Deploy') {
         }
     }
 }

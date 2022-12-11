@@ -1,0 +1,15 @@
+apiVersion: v1
+
+kind: Pod
+metadata:
+  name: scf-api
+  labels:
+    name: scf-api
+spec:
+  containers:
+  - name: scf-api
+    image: mysql
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"

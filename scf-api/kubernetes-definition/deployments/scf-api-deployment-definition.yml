@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+  name: scf-api-deployment
+  labels:
+    app: scf-api
+spec:
+  template:
+    metadata:
+      name: scf-api
+      labels:
+        app: scf-api
+    spec:
+      containers:
+        - name: scf-api
+          image: henriquerdq/scf-api
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+  replicas: 5
+  selector:
+    matchLabels:
+      app: test-api
